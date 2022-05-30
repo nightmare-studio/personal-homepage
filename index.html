@@ -11,19 +11,32 @@
     <link rel="stylesheet" type="text/css" href="loadingstyle.css">
 </head>
 
-<body>
-    <div class="loading">
-        <span>L</span>
-        <span>O</span>
-        <span>A</span>
-        <span>D</span>
-        <span>I</span>
-        <span>N</span>
-        <span>G</span>
-        <span></span>
-        <span></span>
-        <span></span>
+<body> 
+ 
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+        <p class="loader-items">loading...</p>
     </div>
+    <script>
+        $(window).on("load",function(){
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script> 
+    
+    <div class="main">
+        <span class="mobile btn-mobile-menu">
+            <i class="fa fa-bars btn-mobile-menu__icon"></i>
+            <i class="fa fa-chevron-circle-up btn-mobile-close__icon hidden"></i>
+        </span>
+        
+    </div>
+    <script>console.log('███╗   ██╗██╗ ██████╗ ██╗  ██╗████████╗███╗   ███╗ █████╗ ██████╗ ███████╗\n'+
+        '████╗  ██║██║██╔════╝ ██║  ██║╚══██╔══╝████╗ ████║██╔══██╗██╔══██╗██╔════╝ \n'+
+       '██╔██╗ ██║██║██║  ███╗███████║   ██║   ██╔████╔██║███████║██████╔╝█████╗   \n'+
+        '██║╚██╗██║██║██║   ██║██╔══██║   ██║   ██║╚██╔╝██║██╔══██║██╔══██╗██╔══╝   \n'+
+        '██║ ╚████║██║╚██████╔╝██║  ██║   ██║   ██║ ╚═╝ ██║██║  ██║██║  ██║███████╗\n'+
+        '╚═╝  ╚═══╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝\n'
+       )</script>
     <section>
 
         
