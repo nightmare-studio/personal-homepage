@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chorme=1">
@@ -8,28 +8,55 @@
     <meta name= "keywords" content =”夜色，夜色的个人主页，夜色主页，夜色故事”> 
     <meta  name = "description" content =”夜色的个人主页”> 
     <meta  name = "autor" content = "夜色">
-    <link rel="stylesheet" type="text/css" href="loadingstyle.css">
+    <link rel="stylesheet" type="text/css" href="loadingstyle.css"> 
+    <script src="jquery-2.1.4.js"></script>
 </head>
 
 <body> 
- 
+    <div class="main">
+        <div class="nav">
+            <div class="btn">
+                <div class="btn-item"></div>
+                <div class="btn-item"></div>
+                <div class="btn-item"></div>
+            </div>
+            <div class="icon">
+                <div class="icon-img"><img src="2.jpg" alt=""></div>
+                <div class="icon-con">
+                    <p>HELLO</p>
+                    <h2>你好</h2>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="loader-wrapper">
         <span class="loader"><span class="loader-inner"></span></span>
         <p class="loader-items">loading...</p>
     </div>
-    <script>
-        $(window).on("load",function(){
-            $(".loader-wrapper").fadeOut("slow");
-        });
-    </script> 
+
+ <script>
+     setTimeout(() => {
+         $(".loader-wrapper").fadeOut("slow");
+        $('body').css('overflow-y','scroll');
+      }, 2000);
+
+ </script>
     
-    <div class="main">
-        <span class="mobile btn-mobile-menu">
-            <i class="fa fa-bars btn-mobile-menu__icon"></i>
-            <i class="fa fa-chevron-circle-up btn-mobile-close__icon hidden"></i>
-        </span>
-        
-    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script>console.log('███╗   ██╗██╗ ██████╗ ██╗  ██╗████████╗███╗   ███╗ █████╗ ██████╗ ███████╗\n'+
         '████╗  ██║██║██╔════╝ ██║  ██║╚══██╔══╝████╗ ████║██╔══██╗██╔══██╗██╔════╝ \n'+
        '██╔██╗ ██║██║██║  ███╗███████║   ██║   ██╔████╔██║███████║██████╔╝█████╗   \n'+
@@ -37,9 +64,5 @@
         '██║ ╚████║██║╚██████╔╝██║  ██║   ██║   ██║ ╚═╝ ██║██║  ██║██║  ██║███████╗\n'+
         '╚═╝  ╚═══╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝\n'
        )</script>
-    <section>
-
-        
-    </section>
 </body>
 </html>
