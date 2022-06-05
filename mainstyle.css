@@ -1,0 +1,49 @@
+.panel-main{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.panel-main__inner {
+  display: table-cell;
+  vertical-align: middle;
+  z-index: 800;
+  padding: 0 60px;
+}
+.panel-main__inverted {
+  font-weight: 100;
+  text-align: center;
+  color: #FFF;
+  text-shadow: 0 1px 1px rgb(0 0 0 / 40%);
+}
+.panel-main__content{ 
+    max-width: 620px;
+    margin: 0 auto; 
+}
+.icon {
+  display: table;
+  width: 100%;
+  height: 100%; }
+
+.icon-img{
+    display: block;
+  z-index: 900;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+
+}
+.icon-title {
+  margin: 15px 0;
+  font-size: 2.5em;
+  letter-spacing: 4px;
+  color: #FFF; }
+
+
+.footer {
+    position: absolute;
+    font-size: .7em;
+    color: #b3b3b3;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+} 

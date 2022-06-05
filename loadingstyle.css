@@ -1,6 +1,12 @@
 
 body{
-    background-color: #242f3f;
+    
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: #455368;
 }
 .loader-wrapper {
     width: 100%;
