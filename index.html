@@ -10,10 +10,15 @@
     <meta  name = "autor" content = "夜色">
     <link rel="stylesheet" type="text/css" href="loadingstyle.css"> 
     <link rel="stylesheet" type="text/css" href="mainstyle.css"> 
+    <script type="text/javascript" src="main.js"></script>
     <script src="jquery-2.1.4.js"></script>
 </head>
 
 <body> 
+    <span class="mobile-menu">
+        <i class="mobile-btn"></i>
+        <i class="mobile-"></i>
+    </span>
     <div class="panel-main">
         <div class="panel-main__inner panel-main__inverted">
             <div class="panel-main__content">
@@ -21,17 +26,33 @@
                     <a href="https://github.com/nightmare-studio" title="夜色"><img src="1.jpg" width="150" alt="logo" class="icon-img"></a>
                     <h1 class="icon-title"><a href="https://github.com/nightmare-studio" title="">夜色</a></h1>
                     <div class="icon-con">
-                        <p>HELLO</p>
-                        <h2>你好</h2>
+                        <hr class="panel-hr">
+                        <h2>欢迎来到夜色的个人空间！</h2>
+                        <hr class="panel-hr">
+                        <p></p>
+                        
+                        <p>1</p>
                     </div>
+
+                    <div class="icon-sub"><p>123</p></div>
                 </div>
 
             </div>
-            <p class="footer">Copyright © 2022 Made by <a href="https://github.com/nightmare-studio" target="_blank">夜色</a></p>
+            
         </div>
-        
+        <div class="footer">
+            <p class="footer-style">Copyright © 2022 Made by <a href="https://github.com/nightmare-studio" target="_blank">夜色</a></p>
+            </div>
     </div>
-    
+    <div class="navigation-wrapper">
+        <div>
+            <ul class="navigation">    
+              <li class="navigation__item"><a href="" title="1 "> 测试</a></li>
+              <li class="navigation__item"><a href="" title="2">测试</a></li>
+              <li class="navigation__item"><a href="" title="3">测试</a></li>
+            </ul>
+        </div>
+
     <div class="loader-wrapper">
         <span class="loader"><span class="loader-inner"></span></span>
         <p class="loader-items">loading...</p>
@@ -42,7 +63,6 @@
          $(".loader-wrapper").fadeOut("slow");
         $('body').css('overflow-y','scroll');
       }, 2000);
-
  </script>
     
     
@@ -60,12 +80,6 @@
 
 
 
-    <script>console.log('███╗   ██╗██╗ ██████╗ ██╗  ██╗████████╗███╗   ███╗ █████╗ ██████╗ ███████╗\n'+
-        '████╗  ██║██║██╔════╝ ██║  ██║╚══██╔══╝████╗ ████║██╔══██╗██╔══██╗██╔════╝ \n'+
-       '██╔██╗ ██║██║██║  ███╗███████║   ██║   ██╔████╔██║███████║██████╔╝█████╗   \n'+
-        '██║╚██╗██║██║██║   ██║██╔══██║   ██║   ██║╚██╔╝██║██╔══██║██╔══██╗██╔══╝   \n'+
-        '██║ ╚████║██║╚██████╔╝██║  ██║   ██║   ██║ ╚═╝ ██║██║  ██║██║  ██║███████╗\n'+
-        '╚═╝  ╚═══╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝\n'
-       )</script>
+ 
 </body>
 </html>
