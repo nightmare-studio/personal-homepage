@@ -1,0 +1,13 @@
+#plane{
+    color: #fff;
+    font-size: 70px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.plane-style{
+    top: 0;
+    left: 0;
+}
