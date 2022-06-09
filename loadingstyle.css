@@ -9,7 +9,8 @@ body{
     border: 0;
     font: inherit;
     vertical-align: baseline;
-   
+
+    
 }
 .loader-wrapper {
     width: 100%;
@@ -21,6 +22,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 .loader {
    display: inline-block;
